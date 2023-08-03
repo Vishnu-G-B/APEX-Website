@@ -2158,11 +2158,12 @@ blockquote p {
   background: #fff;
 }
 .full-width-header .rs-header .menu-area.sticky .logo-area a .sticky-logo {
-  display: block;
+  display: flex;
 }
 .full-width-header .rs-header .menu-area.sticky .logo-area a .normal-logo {
   display: flex;
-  
+  height: 500px;
+  width: 500px;
 }
 .full-width-header .rs-header .menu-area.sticky .main-menu .rs-menu ul.nav-menu > li > a {
   height: 110px;
@@ -4827,14 +4828,6 @@ body .search-modal .close:hover {
   background-size: cover;
   height: 750px;
 }
-.rs-banner.banner-style10 .content-wrap {
-  text-align: center;
-  position: absolute;
-  top: 0;
-  right: 0;
-  margin: 0 50px;
-  z-index: 1;
-}
 
 .rs-banner.banner-style10 .eagle {
   position: absolute;
@@ -4849,10 +4842,19 @@ body .search-modal .close:hover {
   }
   .rs-banner.banner-style10 .content-wrap .title.customfont {
     font-size: 115px;
+    margin: 0 auto;
   }
   .description.customfont {
     font-size: 25px;
-    margin: -45px -25px 0px 0px;
+    margin: -25px -25px 0px 0px;
+  }
+  .rs-banner.banner-style10 .content-wrap {
+    text-align: center;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 1;
   }
 }
 
@@ -4864,6 +4866,15 @@ body .search-modal .close:hover {
     font-size: 50px;
     margin: -100px -75px 0px 0px;
   }
+  .rs-banner.banner-style10 .content-wrap {
+    text-align: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0 50px;
+    z-index: 1;
+  }
+  
 }
 
 .rs-banner.banner-style10 .content-wrap .title {
