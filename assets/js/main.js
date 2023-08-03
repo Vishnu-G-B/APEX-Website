@@ -595,7 +595,7 @@
         }, 500)
     });
 
-    //canvas menu
+    //canvas menu 
     var navexpander = $('#nav-expander');
     if(navexpander.length){
         $('#nav-expander, #nav-close, #nav-close2, .offwrap').on('click',function(e){
