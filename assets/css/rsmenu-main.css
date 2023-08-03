@@ -115,7 +115,7 @@ Version: 1.0.0
 }
 .rs-header .menu-area .logo-area img{
     max-width: 100%;
-    max-height: 25px;
+    /* max-height: 25px; */
     transition: 0.4s;
     -webkit-transition: 0.4s;
 }

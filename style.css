@@ -2033,7 +2033,8 @@ blockquote p {
 }
 .full-width-header .rs-header .menu-area .logo-area img {
   transition: 0.4s;
-  max-height: 30px;
+  width: 100px;
+  height: 100px;
 }
 .full-width-header .rs-header .menu-area .rs-menu-area {
   display: flex;
@@ -2158,12 +2159,10 @@ blockquote p {
   background: #fff;
 }
 .full-width-header .rs-header .menu-area.sticky .logo-area a .sticky-logo {
-  display: flex;
+  display: block;
 }
 .full-width-header .rs-header .menu-area.sticky .logo-area a .normal-logo {
-  display: flex;
-  height: 500px;
-  width: 500px;
+  display: none;
 }
 .full-width-header .rs-header .menu-area.sticky .main-menu .rs-menu ul.nav-menu > li > a {
   height: 110px;

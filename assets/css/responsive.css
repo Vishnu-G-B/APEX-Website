@@ -1133,9 +1133,6 @@
     .full-width-header .rs-header .expand-btn-inner ul .nav-link .nav-expander {
         margin-left: 15px;
     }
-    .full-width-header .rs-header .menu-area .logo-area img {
-        max-height: 24px;
-    }
     .rs-about.about-style1 .about-image-wrap .images-part {
         position: relative;
     }
@@ -1766,9 +1763,9 @@
         font-size: 30px;
         line-height: 40px;
     }
-    .full-width-header .rs-header .menu-area .logo-area img {
+    /* .full-width-header .rs-header .menu-area .logo-area img {
         max-height: 22px;
-    }
+    } */
     .rs-services.services-style9 .services-item {
         display: block;
     }
