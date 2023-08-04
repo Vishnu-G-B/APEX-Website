@@ -357,10 +357,13 @@ ul {
 }
 .bg11 {
   background-color: #0A0209;
-  background: url(assets/images/bg/cta-bg4.png);
+  background: url(assets/images/bg/quote-bg.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  border-radius: 15px;
+  max-width: 1375px;
+  margin: 0 auto;
 }
 .bg12 {
   background-color: #000000;
