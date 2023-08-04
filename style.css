@@ -4868,6 +4868,18 @@ body .search-modal .close:hover {
     margin: 80px;
     z-index: 1;
   }
+  .join-button {
+    padding: 12px 24px;
+    font-size: 15px;
+    height: 75px;
+    width: 100px;
+    border: none;
+    border-radius: 50px;
+    color: #fff;
+    background-color: #000;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle box shadow */
+  }
   .unique2 {
     height: 598px;
   }
@@ -4907,6 +4919,18 @@ body .search-modal .close:hover {
     margin-bottom: 150px;
     z-index: 1;
   }
+  .join-button {
+    padding: 12px 24px;
+    font-size: 26px;
+    height: 100px;
+    width: 200px;
+    border: none;
+    border-radius: 50px;
+    color: #fff;
+    background-color: #000;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle box shadow */
+  }
   
 }
 
@@ -4924,18 +4948,6 @@ body .search-modal .close:hover {
 
 .customfont {
   font-family: 'Dutch801',Arial, sans-serif;
-}
-.join-button {
-  padding: 12px 24px;
-  font-size: 26px;
-  height: 100px;
-  width: 200px;
-  border: none;
-  border-radius: 50px;
-  color: #fff;
-  background-color: #000;
-  cursor: pointer;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle box shadow */
 }
 
 
