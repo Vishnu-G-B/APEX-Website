@@ -2036,7 +2036,7 @@ blockquote p {
 }
 .full-width-header .rs-header .menu-area .logo-area img {
   transition: 0.4s;
-  width: 100px;
+  width: 200px;
   height: 100px;
 }
 .full-width-header .rs-header .menu-area .rs-menu-area {
@@ -4858,6 +4858,23 @@ body .search-modal .close:hover {
     transform: translate(-50%,-50%);
     z-index: 1;
   }
+  .test {
+    padding: 0;
+  }
+  .button-container {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 80px;
+    z-index: 1;
+  }
+  .unique2 {
+    height: 598px;
+  }
+  .unique2 p {
+    font-size: 10px;
+    line-height: 15px;
+  }
 }
 
 @media screen and (min-width:770px) {
@@ -4874,6 +4891,20 @@ body .search-modal .close:hover {
     top: 0;
     right: 0;
     margin: 0 50px;
+    z-index: 1;
+  }
+  .test {
+    padding-bottom: 110px;
+  }
+  .rs-about.about-style1.about-modify1 .about-img img {
+    height: 534px;
+  }
+  .button-container {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 100px;
+    margin-bottom: 150px;
     z-index: 1;
   }
   
@@ -4894,6 +4925,19 @@ body .search-modal .close:hover {
 .customfont {
   font-family: 'Dutch801',Arial, sans-serif;
 }
+.join-button {
+  padding: 12px 24px;
+  font-size: 26px;
+  height: 100px;
+  width: 200px;
+  border: none;
+  border-radius: 50px;
+  color: #fff;
+  background-color: #000;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle box shadow */
+}
+
 
 .rs-banner.banner-style10 .content-wrap .description p {
   color: rgba(255, 255, 255, 0.9);
@@ -9269,11 +9313,12 @@ body .search-modal .close:hover {
   width: 57px;
 }
 .rs-testimonial.testimonial-style1 .slider .testi-item .item-content p {
-  font-size: 25px;
-  line-height: 40px;
+  font-size: 18px;
+  line-height: 20px;
   font-weight: 500;
   color: #121933;
   margin: 20px 0 15px 0;
+  height: 358px;
 }
 .rs-testimonial.testimonial-style1 .slider .testi-item .rattings i {
   color: #2b59ff;
@@ -9287,8 +9332,8 @@ body .search-modal .close:hover {
   align-items: center;
 }
 .rs-testimonial.testimonial-style1 .slider .testi-item .testi-content .image-wrap img {
-  height: 65px;
-  width: 65px;
+  height: 95px;
+  width: 95px;
   border-radius: 50%;
   position: relative;
 }

@@ -454,8 +454,8 @@
         padding: 0 35px;
     }
     .rs-testimonial.testimonial-style1 .slider .testi-item .item-content p {
-        font-size: 20px;
-        line-height: 34px;
+        /* font-size: 20px; */
+        /* line-height: 34px; */
         margin: 20px 0 20px 0;
     }
     .rs-blog.blog-main-home .slider .blog-item .blog-inner-wrap .blog-content .blog-title {
